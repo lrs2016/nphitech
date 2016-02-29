@@ -147,8 +147,8 @@
 </head>
 <body>
 	<div id="main">
-		<div id="header" class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
+		<div id="header" class="navbar navbar-fixed-top" style="height:60px">
+			<div class="navbar-inner" style="height:60px;background-size:1200px 60px;background-image:url('${ctxStatic}/images/nplogo4.png');">
 				<div class="brand"><span id="productName">${fns:getConfig('productName')}</span></div>
 				<ul id="userControl" class="nav pull-right">
 					<!-- 隐藏		modify by hechungui on 20160220 -->
